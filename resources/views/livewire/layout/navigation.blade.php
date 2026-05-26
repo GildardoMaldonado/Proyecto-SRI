@@ -36,10 +36,6 @@ $logout = function (Logout $logout) {
                         {{ __('Mi Historial') }}
                     </x-nav-link>
 
-                    <x-nav-link :href="route('historial')" :active="request()->routeIs('historial')">
-                        {{ __('Mi Historial') }}
-                    </x-nav-link>
-
                     @if(auth()->user()->is_admin)
                         <x-nav-link :href="route('admin')" :active="request()->routeIs('admin')" class="text-indigo-600 dark:text-indigo-400 font-bold">
                             {{ __('Panel Admin') }}
