@@ -1,3 +1,30 @@
+# Proyecto-SRI
+Repositorio del proyecto para la asignatura optativa Sistemas de Recomendación de Información
+
+## Proyecto: Recomendador de videojuegos gratuitos
+
+### Integrantes del equipo
+- **Gildardo Adrián Maldonado Santiago**
+- **Indra Michelle Tzab Chan**
+- **Joaquín Roberto Gutiérrez Ramírez**
+- **Hernán Rodrigo Muñoz Marrufo**
+
+
+<table border="0">
+ <tr>
+    <td align="center"><img src="./assets/integrantes/integrante 1.png" alt="integrante 1" width="100"></td>
+    <td align="center"><img src="./assets/integrantes/integrante 2.png" alt="integrante 2" width="100"></td>
+    <td align="center"><img src="./assets/integrantes/integrante 3.png" alt="integrante 3" width="100"></td>
+    <td align="center"><img src="./assets/integrantes/integrante 4.png" alt="integrante 4" width="100"></td>
+  </tr>
+ <tr>
+    <td align="center">Gil</td>
+    <td align="center">Indra</td>
+    <td align="center">Rodrigo</td>
+    <td align="center">Joaquín</td>
+  </tr>
+</table>
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
