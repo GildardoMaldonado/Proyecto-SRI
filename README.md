@@ -2,6 +2,20 @@
 Repositorio del proyecto para la asignatura optativa Sistemas de Recomendación de Información
 
 ## Proyecto: Recomendador de videojuegos gratuitos
+- Se utilizó la base de datos de https://www.freetogame.com/api-doc para extraer los juegos
+- Contiene inicio en frío
+- Utiliza un motor híbrido de recomendación (Basado en contenido y Filtrado Colaborativo utilizando Similitud del Coseno entre matrices de usuarios)
+- Boosting y Ranking: 
+    - Puntos por coincidencias de género
+    - Puntos por alta calificación de usuarios similares
+    - Puntos por ser juegos de PC (Los otros son de Web Browser)
+    - Puntos por año de lanzamiento (entre más reciente mejor)
+- Contiene recomendación orgánica y de caja blanca (Etiquetas de coincidencia de género del juego y de que a otros usuarios también les gustó)
+
+
+### Puntitos extra
+- Minería de datos: Cálculo continuo de la Dispersión de datos (Sparsity) accesible en la vista de administrador, lo que permite monitorear la salud de la matriz de interacciones y evaluar la efectividad del motor colaborativo en tiempo real.
+- Web Workers:  Se delegó la extracción y transformación de los datos de la API externa a procesos en segundo plano, evitando saturación y garantizando que la interfaz nunca se congele durante la descarga masiva del catálogo.
 
 ### Integrantes del equipo
 - **Gildardo Adrián Maldonado Santiago**
